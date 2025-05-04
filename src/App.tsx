@@ -13,6 +13,7 @@ function App() {
         <ul className="flex flex-col gap-2">
           <li>use shadcn for creating custom components</li>
           <li>understand how useRef and forwradRef work</li>
+          <li>anything that will be updated should send otherwise undefined , if you want to delete send null</li>
         </ul>
         <AttachmentUploader />
         <VideoUploader />
